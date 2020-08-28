@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Aug 28 05:50:59 GMT 2020","Fri Aug 28 05:50:59 GMT 2020","8","","Milestones","","Create new milestone for authorized user","","Create new milestone for authorized user",""
+"passed","Fri Aug 28 05:50:57 GMT 2020","Fri Aug 28 05:50:59 GMT 2020","2008","","Labels","","Delete existing label for authorized user","","Delete existing label for authorized user",""
+"passed","Fri Aug 28 05:50:59 GMT 2020","Fri Aug 28 05:50:59 GMT 2020","10","","Milestones","","Close existing milestone for authorized user","","Close existing milestone for authorized user",""
+"broken","Fri Aug 28 05:50:56 GMT 2020","Fri Aug 28 05:50:56 GMT 2020","10","","Labels","","Create new label for authorized user","","Create new label for authorized user",""
+"passed","Fri Aug 28 05:50:56 GMT 2020","Fri Aug 28 05:50:56 GMT 2020","14","","Labels","","Create new label via api","","Create new label via api",""
+"passed","Fri Aug 28 05:50:56 GMT 2020","Fri Aug 28 05:50:56 GMT 2020","13","","Labels","","Delete existing label via api","","Delete existing label via api",""
+"passed","Fri Aug 28 05:50:56 GMT 2020","Fri Aug 28 05:50:57 GMT 2020","1010","","Labels","","Add label to existing issue for authorized user","","Add label to existing issue for authorized user",""

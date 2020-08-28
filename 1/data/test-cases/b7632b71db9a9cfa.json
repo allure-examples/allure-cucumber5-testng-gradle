@@ -1,0 +1,135 @@
+{
+  "uid" : "b7632b71db9a9cfa",
+  "name" : "Delete existing label for authorized user",
+  "fullName" : "Labels: Delete existing label for authorized user",
+  "historyId" : "3b99172849a956d077462dbdc8532625",
+  "time" : {
+    "start" : 1598593857909,
+    "stop" : 1598593859917,
+    "duration" : 2008
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  I open labels page",
+      "time" : {
+        "start" : 1598593857909,
+        "stop" : 1598593857909,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I create label with title \"hello\"",
+      "time" : {
+        "start" : 1598593857912,
+        "stop" : 1598593857912,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I delete label with title \"hello\"",
+      "time" : {
+        "start" : 1598593857913,
+        "stop" : 1598593858914,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should not see note with content \"hello\"",
+      "time" : {
+        "start" : 1598593858915,
+        "stop" : 1598593859916,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az183"
+  }, {
+    "name" : "thread",
+    "value" : "4129@fv-az183.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-web_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "b7632b71db9a9cfa.json",
+  "parameterValues" : [ ]
+}

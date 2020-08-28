@@ -1,0 +1,8 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Milestones","Create new milestone for authorized user","0","0","1","0","0"
+"","Labels","Delete existing label for authorized user","0","0","1","0","0"
+"","Milestones","Close existing milestone for authorized user","0","0","1","0","0"
+"","Labels","Create new label for authorized user","0","1","0","0","0"
+"","Labels","Create new label via api","0","0","1","0","0"
+"","Labels","Delete existing label via api","0","0","1","0","0"
+"","Labels","Add label to existing issue for authorized user","0","0","1","0","0"

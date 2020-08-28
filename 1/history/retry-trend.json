@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-testng-gradle/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 7,
+    "retry" : 0
+  }
+} ]

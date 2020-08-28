@@ -1,0 +1,150 @@
+{
+  "uid" : "8b16dd73c982dbf4",
+  "name" : "Create new label via api",
+  "fullName" : "Labels: Create new label via api",
+  "historyId" : "f9c66bf9ddd19869dacb865700c9ee29",
+  "time" : {
+    "start" : 1598593856728,
+    "stop" : 1598593856742,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  I create label with title \"hello\" via api",
+      "time" : {
+        "start" : 1598593856729,
+        "stop" : 1598593856734,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /repos/:owner/:repo/labels",
+        "time" : {
+          "start" : 1598593856730,
+          "stop" : 1598593856730,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should see label with title \"hello\" via api",
+      "time" : {
+        "start" : 1598593856737,
+        "stop" : 1598593856737,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /repos/:owner/:repo/labels?text=hello",
+        "time" : {
+          "start" : 1598593856737,
+          "stop" : 1598593856737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /repos/:owner/:repo/labels/834",
+        "time" : {
+          "start" : 1598593856737,
+          "stop" : 1598593856737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az183"
+  }, {
+    "name" : "thread",
+    "value" : "4129@fv-az183.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Create new label via api"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Create new label via api"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-rest.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-rest_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "8b16dd73c982dbf4.json",
+  "parameterValues" : [ ]
+}
