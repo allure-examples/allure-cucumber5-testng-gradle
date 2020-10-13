@@ -1,0 +1,175 @@
+{
+  "uid" : "640213e93864f9ed",
+  "name" : "Add label to existing issue for authorized user",
+  "fullName" : "Labels: Add label to existing issue for authorized user",
+  "historyId" : "6c5e4728d27ca5f06be0153a1dac5c1",
+  "time" : {
+    "start" : 1602556445877,
+    "stop" : 1602556445891,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "statusMessage" : "Element not found for xpath [//div[@class='something']]",
+  "statusTrace" : "java.lang.RuntimeException: Element not found for xpath [//div[@class='something']]\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowElementNotFoundException(WebSteps.java:89)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.filterIssueByLabel(WebSteps.java:84)\n\tat ✽.I filter issue by label title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature:19)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element not found for xpath [//div[@class='something']]",
+    "statusTrace" : "java.lang.RuntimeException: Element not found for xpath [//div[@class='something']]\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowElementNotFoundException(WebSteps.java:89)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.filterIssueByLabel(WebSteps.java:84)\n\tat ✽.I filter issue by label title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature:19)\n",
+    "steps" : [ {
+      "name" : "When  I open issue with id 123123",
+      "time" : {
+        "start" : 1602556445877,
+        "stop" : 1602556445878,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I add label with title \"hello\" to issue",
+      "time" : {
+        "start" : 1602556445880,
+        "stop" : 1602556445881,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I filter issue by label title \"hello\"",
+      "time" : {
+        "start" : 1602556445883,
+        "stop" : 1602556445886,
+        "duration" : 3
+      },
+      "status" : "broken",
+      "statusMessage" : "Element not found for xpath [//div[@class='something']]",
+      "statusTrace" : "java.lang.RuntimeException: Element not found for xpath [//div[@class='something']]\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowElementNotFoundException(WebSteps.java:89)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.filterIssueByLabel(WebSteps.java:84)\n\tat ✽.I filter issue by label title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature:19)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should see issue with label title \"hello\"",
+      "time" : {
+        "start" : 1602556445889,
+        "stop" : 1602556445889,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az120"
+  }, {
+    "name" : "thread",
+    "value" : "4151@fv-az120.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Add label to existing issue for authorized user"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Add label to existing issue for authorized user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-web_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "bd5d074cbf56dc47",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-testng-gradle/2//#testresult/bd5d074cbf56dc47",
+        "status" : "broken",
+        "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+        "time" : {
+          "start" : 1601527583553,
+          "stop" : 1601527583575,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "3aed8fa5a0e1546",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-testng-gradle/1//#testresult/3aed8fa5a0e1546",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598593856894,
+          "stop" : 1598593857904,
+          "duration" : 1010
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "640213e93864f9ed.json",
+  "parameterValues" : [ ]
+}

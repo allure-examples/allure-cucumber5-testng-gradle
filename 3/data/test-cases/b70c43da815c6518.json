@@ -1,0 +1,153 @@
+{
+  "uid" : "b70c43da815c6518",
+  "name" : "Create new label for authorized user",
+  "fullName" : "Labels: Create new label for authorized user",
+  "historyId" : "e509c4c6de4e5cecb9d9ec918f3c625b",
+  "time" : {
+    "start" : 1602556445852,
+    "stop" : 1602556445866,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When  I open labels page",
+      "time" : {
+        "start" : 1602556445852,
+        "stop" : 1602556445852,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I create label with title \"hello\"",
+      "time" : {
+        "start" : 1602556445855,
+        "stop" : 1602556445855,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should see label with title \"hello\"",
+      "time" : {
+        "start" : 1602556445863,
+        "stop" : 1602556445864,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "fv-az120"
+  }, {
+    "name" : "thread",
+    "value" : "4151@fv-az120.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Create new label for authorized user"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Create new label for authorized user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-web_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fb52027f4b555aa7",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-testng-gradle/2//#testresult/fb52027f4b555aa7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601527583540,
+          "stop" : 1601527583546,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "2cee00ab5634563f",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-testng-gradle/1//#testresult/2cee00ab5634563f",
+        "status" : "broken",
+        "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+        "time" : {
+          "start" : 1598593856864,
+          "stop" : 1598593856874,
+          "duration" : 10
+        }
+      } ]
+    },
+    "tags" : [ "regress" ]
+  },
+  "source" : "b70c43da815c6518.json",
+  "parameterValues" : [ ]
+}

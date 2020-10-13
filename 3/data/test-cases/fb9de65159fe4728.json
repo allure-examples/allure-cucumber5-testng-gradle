@@ -1,0 +1,174 @@
+{
+  "uid" : "fb9de65159fe4728",
+  "name" : "Delete existing label for authorized user",
+  "fullName" : "Labels: Delete existing label for authorized user",
+  "historyId" : "3b99172849a956d077462dbdc8532625",
+  "time" : {
+    "start" : 1602556445901,
+    "stop" : 1602556446912,
+    "duration" : 1011
+  },
+  "status" : "failed",
+  "statusMessage" : "expected [another text] but found [hello]",
+  "statusTrace" : "java.lang.AssertionError: expected [another text] but found [hello]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat org.testng.Assert.assertEquals(Assert.java:585)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowAssertionException(WebSteps.java:97)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.deleteLabelWithTitle(WebSteps.java:39)\n\tat ✽.I delete label with title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature:27)\n",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected [another text] but found [hello]",
+    "statusTrace" : "java.lang.AssertionError: expected [another text] but found [hello]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat org.testng.Assert.assertEquals(Assert.java:585)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowAssertionException(WebSteps.java:97)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.deleteLabelWithTitle(WebSteps.java:39)\n\tat ✽.I delete label with title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature:27)\n",
+    "steps" : [ {
+      "name" : "When  I open labels page",
+      "time" : {
+        "start" : 1602556445901,
+        "stop" : 1602556445904,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I create label with title \"hello\"",
+      "time" : {
+        "start" : 1602556445905,
+        "stop" : 1602556445906,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I delete label with title \"hello\"",
+      "time" : {
+        "start" : 1602556445907,
+        "stop" : 1602556446911,
+        "duration" : 1004
+      },
+      "status" : "failed",
+      "statusMessage" : "expected [another text] but found [hello]",
+      "statusTrace" : "java.lang.AssertionError: expected [another text] but found [hello]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat org.testng.Assert.assertEquals(Assert.java:585)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowAssertionException(WebSteps.java:97)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.deleteLabelWithTitle(WebSteps.java:39)\n\tat ✽.I delete label with title \"hello\"(file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature:27)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then  I should not see note with content \"hello\"",
+      "time" : {
+        "start" : 1602556446912,
+        "stop" : 1602556446912,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az120"
+  }, {
+    "name" : "thread",
+    "value" : "4151@fv-az120.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-testng-gradle/allure-cucumber5-testng-gradle/src/test/resources/features/labels-web.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-web_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3114b68fc8c12c32",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-testng-gradle/2//#testresult/3114b68fc8c12c32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601527583580,
+          "stop" : 1601527585589,
+          "duration" : 2009
+        }
+      }, {
+        "uid" : "b7632b71db9a9cfa",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-testng-gradle/1//#testresult/b7632b71db9a9cfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598593857909,
+          "stop" : 1598593859917,
+          "duration" : 2008
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "fb9de65159fe4728.json",
+  "parameterValues" : [ ]
+}
